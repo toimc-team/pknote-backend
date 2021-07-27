@@ -1,0 +1,17 @@
+# server:
+#   origin: http://nestjs-task-management-hk.s3-website.ap-east-1.amazonaws.com
+
+db:
+  host: 'your-postgresql.domain.com'
+  port: 5432
+  username: 'username'
+  password: 'long-random-passowrd'
+  synchronize: false
+
+jwt:
+  secret: 'long-random-secret'
+
+redis:
+  host: 'production.domain.com'
+  port: 6379
+  password: 'long-random-redis-passowrd'

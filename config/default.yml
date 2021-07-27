@@ -1,0 +1,22 @@
+server:
+  port: 3000
+
+db:
+  type: 'postgres'
+  port: 5432
+  database: 'toimc'
+
+jwt:
+  expiresIn: 3600
+
+redis:
+  host: 'your-redis.domain.com'
+  port: 6379
+  password: 'your-redis.auth.password'
+
+# send sms use Tencent Cloud Sms Service
+sms:
+  appid: 100000
+  appkey: 'your-app-key'
+  templateId: 100000
+  smsSign: 'toimc技术团队'
