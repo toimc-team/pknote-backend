@@ -15,8 +15,10 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return "Hello Nestjs! This is Pknote Backend Service!"', () => {
+      expect(appController.getHello()).toBe(
+        'Hello Nestjs! This is Pknote Backend Service!',
+      );
     });
   });
 });
